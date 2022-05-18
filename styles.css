@@ -170,11 +170,11 @@ body {
     border-radius: 12px;
 }
 
-.left {
-    margin-right: 64px;
+.signup-container .left {
+    margin-right: 128px;
 }
 
-.left * {
+.signup-container .left .heading {
     margin: 0;
 }
 
