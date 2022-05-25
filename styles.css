@@ -129,6 +129,19 @@ body {
     color: cornflowerblue;
 }
 
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .icon-container {
+    border: 4px solid #1F2937;
+}
+
+.card:hover .project-icon {
+    font-size: 144px;
+    color: #1F2937;
+}
+
 .description.dark {
     color: gray;
 }
