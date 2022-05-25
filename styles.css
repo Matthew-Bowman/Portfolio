@@ -153,15 +153,6 @@ body {
     color: gray;
 }
 
-.b {
-    background-color: #E5E7EB;
-    padding: 96px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .quote-container {
     width: 50%;
 }
@@ -180,13 +171,6 @@ body {
     font-weight: bold;
     font-size: 18px;
     color: #1F2937;
-}
-
-.c {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 64px;
 }
 
 .signup-container {
