@@ -147,6 +147,10 @@ body {
     color: rgb(70, 115, 200);
 }
 
+.card:hover .description {
+    color: black;
+}
+
 .description.dark {
     color: gray;
 }
