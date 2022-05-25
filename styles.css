@@ -61,28 +61,6 @@ body {
     margin: 8px 0;
 }
 
-.button {
-    background-color: #3882F6;
-    border: none;
-    border-radius: 4px;
-}
-
-.image {
-    background-color: lightgray;
-    width: 500px;
-    height: 250px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button {
-    color: #F9FAF8;
-    font-size: 18px;
-    padding: 8px 16px;
-}
-
 /* Main Section Styles */
 .main {
     display: flex;
@@ -151,51 +129,6 @@ body {
 
 .description.dark {
     color: gray;
-}
-
-.quote-container {
-    width: 50%;
-}
-
-.quote {
-    text-align: left;
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: lighter;
-    margin: 0;
-}
-
-.author {
-    margin: 0 32px;
-    text-align: right;
-    font-weight: bold;
-    font-size: 18px;
-    color: #1F2937;
-}
-
-.signup-container {
-    display: flex;
-    align-items: center;
-    text-align: left;
-
-    background-color: #3882F6;
-    padding: 48px 96px;
-    border-radius: 12px;
-}
-
-.signup-container .left {
-    margin-right: 128px;
-}
-
-.signup-container .left .heading {
-    margin: 0;
-}
-
-.heading {
-    font-weight: bold;
-    color: white;
-    font-size: 18px;
-    margin-bottom: 8px;
 }
 
 /* Footer Styles */
