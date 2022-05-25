@@ -120,6 +120,11 @@ body {
     border-radius: 32px;
 }
 
+.project-icon {
+    font-size: 128px;
+    color: cornflowerblue;
+}
+
 .description.dark {
     color: gray;
 }
