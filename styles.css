@@ -138,12 +138,12 @@ body {
 }
 
 .card:hover .icon-container {
-    border: 4px solid #1F2937;
+    border: 4px solid rgb(70, 115, 200);
 }
 
 .card:hover .project-icon {
     font-size: 144px;
-    color: #1F2937;
+    color: rgb(70, 115, 200);
 }
 
 .description.dark {
