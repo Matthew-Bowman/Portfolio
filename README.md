@@ -7,3 +7,4 @@ A project to act as a collection of all my other projects and allow me to showca
 - Add about me
 - Add contact form / information
 - Make responsive
+- Fixup CSS (Comments, make sure unused is removed etc.)
