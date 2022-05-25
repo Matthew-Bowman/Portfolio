@@ -198,23 +198,20 @@ body {
     margin-bottom: 8px;
 }
 
-.signup-button {
-    color: white;
-    font-size: 18px;
-    background-color: #3882F6;
-
-    border: 2px solid white;
-    border-radius: 4px;
-    padding: 4px 16px;
-}
-
-/* Footer Styling */
+/* Footer Styles */
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* Positioning */
+    position: fixed;
+    bottom: 0;
+
+    /* Dimensions */
+    width: 100%;
     padding: 16px;
-    background-color: #1F2937;
+
+    /* Colours */
+    background: #1F2937;
     color: white;
-    margin-top: 64px;
+
+    /* Alignment */
+    text-align: center;
 }
