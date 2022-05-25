@@ -112,7 +112,7 @@ body {
     max-width: 200px;
 }
 
-.card .icon {
+.icon-container {
     width: 200px;
     height: 200px;
     
