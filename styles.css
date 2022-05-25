@@ -110,6 +110,7 @@ body {
 
 .card {
     max-width: 200px;
+    user-select: none;
 }
 
 .card * {
