@@ -7,11 +7,6 @@
     /* Accent */
     --accent: #6495ed;
     --accent-alt: #4673c8;
-
-    /* Text */
-    --text-primary: #F9FaF8;
-    --text-primary-alt: #808080;
-    --text-secondary: #000000;
 }
 
 body {
@@ -53,13 +48,13 @@ body {
 .title {
     font-size: 48px;
     font-weight: bolder;
-    color: var(--text-primary);
+    color: var(--primary);
     margin: 0;
 }
 
 .description {
     font-size: 18px;
-    color: var(--text-primary);
+    color: var(--primary);
     margin: 8px 0;
 }
 
@@ -126,9 +121,9 @@ body {
 }
 
 .card:hover .description {
-    color: var(--text-secondary);
+    color: var(--secondary);
 }
 
 .description.dark {
-    color: var(--text-primary-alt);
+    color: var(--primary-alt);
 }
