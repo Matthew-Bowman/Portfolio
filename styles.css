@@ -14,7 +14,7 @@ body {
     align-items: center;
 }
 
-.header .content {
+.header-content {
     /* Flexbox */
     display: flex;
     align-items: center;
