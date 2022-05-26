@@ -23,6 +23,9 @@ body {
 
     /* Typography */
     font-family: 'Roboto', sans-serif;
+
+    /* Colouring */
+    background-color: var(--primary);
 }
 
 /* Header Section Styles */
