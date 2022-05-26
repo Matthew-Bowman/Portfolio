@@ -36,6 +36,9 @@ body {
     
     /* Dimensions */
     padding: 128px 0;
+
+    /* Alignment */
+    text-align: center;
 }
 
 .title {
