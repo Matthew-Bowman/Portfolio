@@ -101,21 +101,3 @@ body {
 .description.dark {
     color: gray;
 }
-
-/* Footer Styles */
-.footer {
-    /* Positioning */
-    position: fixed;
-    bottom: 0;
-
-    /* Dimensions */
-    width: 100%;
-    padding: 16px;
-
-    /* Colours */
-    background: #1F2937;
-    color: white;
-
-    /* Alignment */
-    text-align: center;
-}
