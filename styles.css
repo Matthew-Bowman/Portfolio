@@ -33,16 +33,9 @@ body {
     
     /* Colouring */
     background-color: var(--secondary);
-}
-
-.header-content {
-    /* Flexbox */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-
-    /* Margin */
-    margin: 128px 0;
+    
+    /* Dimensions */
+    padding: 128px 0;
 }
 
 .title {
