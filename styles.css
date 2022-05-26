@@ -1,8 +1,16 @@
 :root {
+    /* Main */
     --primary: #ffffff;
     --secondary: #1F2937;
+    
+    /* Accent */
     --accent: #6495ed;
+    --accent-alt: rgb(70, 115, 200);
+
+    /* Text */
     --text-primary: #F9FaF8;
+    --text-primary-alt: #808080;
+    --text-secondary: #000000;
 }
 
 body {
@@ -118,5 +126,5 @@ body {
 }
 
 .description.dark {
-    color: gray;
+    color: #808080;
 }
