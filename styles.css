@@ -1,8 +1,12 @@
 body {
+    /* Flexbox */
     display: flex;
     flex-direction: column;
  
+    /* Removing Default Margin */
     margin: 0;
+
+    /* Typography */
     font-family: sans-serif;
 }
 
