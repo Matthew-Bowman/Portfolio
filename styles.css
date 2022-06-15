@@ -87,9 +87,6 @@ body {
 }
 
 .icon-container {
-    width: 200px;
-    height: 200px;
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,15 +104,6 @@ body {
 
 .card:hover {
     cursor: pointer;
-}
-
-.card:hover .icon-container {
-    border: 4px solid var(--accent-alt);
-}
-
-.card:hover .project-icon {
-    font-size: 136px;
-    color: var(--accent-alt);
 }
 
 .card:hover .description {
