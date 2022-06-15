@@ -93,9 +93,6 @@ body {
 }
 
 .project-icon {
-    font-size: 128px;
-    color: var(--accent);
-
     width: 256px;
     aspect-ratio: 16 / 9;
 
