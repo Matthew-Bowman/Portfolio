@@ -92,7 +92,7 @@ body {
 }
 
 .project-icon {
-    width: 256px;
+    width: 512px;
     aspect-ratio: 16 / 9;
 
     border: 1px solid black;
