@@ -1,1025 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Meta Tags for Discord -->
-    <meta content="Matthew's Portfolio" property="og:title" />
-    <meta content="A Portfolio to represent projects I have worked on and showcase my skills." property="og:description" />
-    <meta content="#483248" data-react-helmet="true" name="theme-color" />
-    <meta content="file:///D:/Data/Code/GitHub%20Repos/Portfolio/index.html" property="og:url" />
-    <meta content="https://cdn.dribbble.com/users/1708816/screenshots/15637256/media/f9826f0af8a49462f048262a8502035b.gif" property="og:image" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Title -->
-    <title>Portfolio</title>
+  <!-- Meta Tags for Discord -->
+  <meta content="Matthew's Portfolio" property="og:title" />
+  <meta content="A Portfolio to represent projects I have worked on and showcase my skills."
+    property="og:description" />
+  <meta content="#483248" data-react-helmet="true" name="theme-color" />
+  <meta content="file:///D:/Data/Code/GitHub%20Repos/Portfolio/index.html" property="og:url" />
+  <meta content="https://cdn.dribbble.com/users/1708816/screenshots/15637256/media/f9826f0af8a49462f048262a8502035b.gif"
+    property="og:image" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="./Images/favicon.ico" />
+  <!-- Title -->
+  <title>Portfolio</title>
 
-    <!-- Import Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./Images/favicon.ico" />
 
-    <!-- Import Bootstrap Icons -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-    />
-  </head>
+  <!-- Import Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+  </script>
 
-  <body class="bg-light pb-5">
-    <div class="container-fluid p-0">
-      <!-- HEADER -->
-      <div class="py-5 bg-dark text-light">
-        <div class="p-5 mb-4">
-          <div class="container-fluid text-center">
-            <h1 class="display-4 fw-bold">Matthew Bowman</h1>
-            <p class="fs-5">Structured Systems Analyst & Full Stack Developer</p>
-            <a
-              href="https://github.com/Matthew-Bowman"
-              class="btn btn-outline-primary px-4 fs-4"
-              target="_blank"
-              >GitHub</a
-            >
-          </div>
-        </div>
-      </div>
+  <!-- Import Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
+</head>
 
-      <!-- MAIN -->
-      <div class="mt-4 text-center">
-        <!-- SKILLS -->
-        <div class="mb-5">
-          <h2 class="display-5 fw-bold col-12">Skills</h2>
-          <div
-            class="bg-white col-10 col-xl-6 d-flex flex-wrap gap-3 mx-auto p-4 justify-content-center shadow"
-          >
-            <img
-              src="./Images/Icons/HTML.svg"
-              alt="Icon of HTML5 Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="HTML 5"
-            />
-            <img
-              src="./Images/Icons/CSS.svg"
-              alt="Icon of CSS3 Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="CSS 3"
-            />
-            <img
-              src="./Images/Icons/JavaScript.svg"
-              alt="Icon of JavaScript Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="JavaScript"
-            />
-            <img
-              src="./Images/Icons/NodeJS-Dark.svg"
-              alt="Icon of NodeJS Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="NodeJS"
-            />
-            <img
-              src="./Images/Icons/React-Dark.svg"
-              alt="Icon of ReactJS Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="ReactJS"
-            />
-            <img
-              src="./Images/Icons/PHP-Dark.svg"
-              alt="Icon of PHP Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="PHP"
-            />
-            <img
-              src="./Images/Icons/Java-Dark.svg"
-              alt="Icon of Java Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="Java"
-            />
-            <img
-              src="./Images/Icons/CS.svg"
-              alt="Icon of C# Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="C#"
-            />
-            <img
-              src="./Images/Icons/Git.svg"
-              alt="Icon of Git Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="Git"
-            />
-            <img
-              src="./Images/Icons/Github-Dark.svg"
-              alt="Icon of GitHub Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="GitHub"
-            />
-            <img
-              src="./Images/Icons/Bootstrap.svg"
-              alt="Icon of Bootstrap Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="Bootstrap"
-            />
-            <img
-              src="./Images/Icons/TailwindCSS-Dark.svg"
-              alt="Icon of TailwindCSS Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="TailwindCSS"
-            />
-            <img
-              src="./Images/Icons/Linux-Dark.svg"
-              alt="Icon of Linux Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="Linux"
-            />
-            <img
-              src="./Images/Icons/Ubuntu.svg"
-              alt="Icon of Ubuntu Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="Ubuntu"
-            />
-            <img
-              src="./Images/Icons/Digital-Ocean.svg"
-              alt="Icon of Digital Ocean Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="Digital Ocean"
-            />
-            <img
-              src="./Images/Icons/Cloudflare-Dark.svg"
-              alt="Icon of Cloudflare Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="Cloudflare"
-            />
-            <img
-              src="./Images/Icons/MySQL-Dark.svg"
-              alt="Icon of MySQL Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="MySQL"
-            />
-            <img
-              src="./Images/Icons/ExpressJS-Dark.svg"
-              alt="Icon of ExpressJS Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="ExpressJS"
-            />
-            <img
-              src="./Images/Icons/Unity-Dark.svg"
-              alt="Icon of Unity Logo"
-              class="border rounded-3 p-2 shadow-sm"
-              width="64"
-              height="64"
-              data-bs-toggle="tooltip"
-              data-bs-title="Unity"
-            />
-          </div>
-        </div>
-
-        <!-- WEB PROJECTS -->
-        <div class="mb-5">
-          <h2 class="display-5 fw-bold col-12">Web Projects</h2>
-          <div class="col-10 text-center mx-auto mt-3">
-            <div class="row gy-4 justify-content-center">
-              <!-- SKETCH-IT CARD -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <img
-                    src="./Images/Projects/Sketch-It.png"
-                    alt="Image of a calculator"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body h-100 d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/CSS.svg"
-                        alt="Icon of CSS3 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="CSS 3"
-                      />
-                      <img
-                        src="./Images/Icons/JavaScript.svg"
-                        alt="Icon of JavaScript Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="JavaScript"
-                      />
-                    </div>
-                    <h1 class="card-title">Sketch-It</h1>
-                    <p class="card-text">
-                      A website providing the user with the ability to draw.
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://matthew-bowman.github.io/Sketch-It/"
-                        class="btn btn-primary"
-                        target="_blank"
-                        >Show Me</a
-                      >
-                      <a
-                        href="https://github.com/Matthew-Bowman/Sketch-It/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- SaaS Landing Page -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <img
-                    src="./Images/Projects/SaaS Landing Page.png"
-                    alt="Image of a calculator"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/CSS.svg"
-                        alt="Icon of CSS3 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="CSS 3"
-                      />
-                      <img
-                        src="./Images/Icons/JavaScript.svg"
-                        alt="Icon of JavaScript Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="JavaScript"
-                      />
-                    </div>
-                    <h1 class="card-title">SaaS Landing Page</h1>
-                    <p class="card-text">
-                      A sample landing page for a SaaS application
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://matthew-bowman.github.io/SaaS-Landing-Page/"
-                        class="btn btn-primary"
-                        target="_blank"
-                        >Show Me</a
-                      >
-                      <a
-                        href="https://github.com/Matthew-Bowman/SaaS-Landing-Page/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- ROCK PAPER SCISSORS CARD -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <img
-                    src="./Images/Projects/Rock Paper Scissors.png"
-                    alt="Image of a calculator"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/CSS.svg"
-                        alt="Icon of CSS3 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="CSS 3"
-                      />
-                      <img
-                        src="./Images/Icons/JavaScript.svg"
-                        alt="Icon of JavaScript Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="JavaScript"
-                      />
-                    </div>
-                    <h1 class="card-title">Rock Paper Scissors</h1>
-                    <p class="card-text">
-                      A website to play Rock Paper Scissors against the
-                      computer.
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://matthew-bowman.github.io/Rock-Paper-Scissors/"
-                        class="btn btn-primary"
-                        target="_blank"
-                        >Show Me</a
-                      >
-                      <a
-                        href="https://github.com/Matthew-Bowman/Rock-Paper-Scissors/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- CALCULATOR CARD -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <img
-                    src="./Images/Projects/Calculator.png"
-                    alt="Image of a calculator"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/CSS.svg"
-                        alt="Icon of CSS3 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="CSS 3"
-                      />
-                      <img
-                        src="./Images/Icons/JavaScript.svg"
-                        alt="Icon of JavaScript Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="JavaScript"
-                      />
-                    </div>
-                    <h1 class="card-title">Calculator</h1>
-                    <p class="card-text">
-                      A simple calculator application to perform mathematical
-                      operations.
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://matthew-bowman.github.io/Calculator/"
-                        class="btn btn-primary"
-                        target="_blank"
-                        >Show Me</a
-                      >
-                      <a
-                        href="https://github.com/Matthew-Bowman/Calculator/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- WEATHER APPLICATION CARD -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <img
-                    src="./Images/Projects/Weather Application.png"
-                    alt="Image of a calculator"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/Bootstrap.svg"
-                        alt="Icon of Bootstrap Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="Bootstrap"
-                      />
-                    </div>
-                    <h1 class="card-title">Weather Application</h1>
-                    <p class="card-text">
-                      A weather application to inform people of the weather.
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://matthew-bowman.github.io/Weather-Application/"
-                        class="btn btn-primary"
-                        target="_blank"
-                        >Show Me</a
-                      >
-                      <a
-                        href="https://github.com/Matthew-Bowman/Weather-Application/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- DISCORD INTERFACE CARD -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <img
-                    src="./Images/Projects/Discord Design.png"
-                    alt="Image of a calculator"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/JavaScript.svg"
-                        alt="Icon of JavaScript Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="JavaScript"
-                      />
-                      <img
-                        src="./Images/Icons/React-Dark.svg"
-                        alt="Icon of ReactJS Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="ReactJS"
-                      />
-                      <img
-                        src="./Images/Icons/TailwindCSS-Dark.svg"
-                        alt="Icon of TailwindCSS Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="TailwindCSS"
-                      />
-                    </div>
-                    <h1 class="card-title">Discord Interface</h1>
-                    <p class="card-text">
-                      A ReactJS app with TailwindCSS to demonstrate skills.
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://matthew-bowman.github.io/TailwindCSS-Tutorial/"
-                        class="btn btn-primary"
-                        target="_blank"
-                        >Show Me</a
-                      >
-                      <a
-                        href="https://github.com/Matthew-Bowman/TailwindCSS-Tutorial/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- TO-DO LIST CARD -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <img
-                    src="./Images/Projects/Todo List.png"
-                    alt="Image of a calculator"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/JavaScript.svg"
-                        alt="Icon of JavaScript Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="JavaScript"
-                      />
-                      <img
-                        src="./Images/Icons/React-Dark.svg"
-                        alt="Icon of ReactJS Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="ReactJS"
-                      />
-                      <img
-                        src="./Images/Icons/Bootstrap.svg"
-                        alt="Icon of Bootstrap Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="Bootstrap"
-                      />
-                    </div>
-                    <h1 class="card-title">To-Do List</h1>
-                    <p class="card-text">
-                      A ReactJS app with Bootstrap to demonstrate skills.
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://matthew-bowman.github.io/React-To-Do-List/"
-                        class="btn btn-primary"
-                        target="_blank"
-                        >Show Me</a
-                      >
-                      <a
-                        href="https://github.com/Matthew-Bowman/React-To-Do-List/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- AIDANN PORTFOLIO CARD -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <img
-                    src="./Images/Projects/Aidan Portfolio.png"
-                    alt="Image of a calculator"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/CSS.svg"
-                        alt="Icon of CSS Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="CSS"
-                      />
-                      <img
-                        src="./Images/Icons/JavaScript.svg"
-                        alt="Icon of JavaScript Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="JavaScript"
-                      />
-                      <img
-                        src="./Images/Icons/PHP-Dark.svg"
-                        alt="Icon of PHP Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="PHP"
-                      />
-                      <img
-                        src="./Images/Icons/Ubuntu.svg"
-                        alt="Icon of Ubuntu Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="Ubuntu"
-                      />
-                      <img
-                        src="./Images/Icons/Digital-Ocean.svg"
-                        alt="Icon of Digital Ocean Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="Digital Ocean"
-                      />
-                      <img
-                        src="./Images/Icons/Cloudflare-Dark.svg"
-                        alt="Icon of Cloudflare Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="Cloudflare"
-                      />
-                    </div>
-                    <h1 class="card-title">Portfolio</h1>
-                    <p class="card-text">
-                      A portfolio website I built for a client including a
-                      custom content management system for them to customise the
-                      content on the pages of the website built on top of a LAMP stack.
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://github.com/Matthew-Bowman/Aidann-Portfolio/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- SOCIAL MEDIA APP CARD -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card shadow h-100">
-                  <img
-                    src="./Images/Projects/Social Media App.png"
-                    alt="Image of the Social Media App"
-                    class="card-img-top img-fluid border-bottom"
-                  />
-                  <div class="card-body d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/HTML.svg"
-                        alt="Icon of HTML5 Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="HTML 5"
-                      />
-                      <img
-                        src="./Images/Icons/JavaScript.svg"
-                        alt="Icon of JavaScript Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="JavaScript"
-                      />
-                      <img
-                        src="./Images/Icons/React-Dark.svg"
-                        alt="Icon of ReactJS Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="ReactJS"
-                      />
-                      <img
-                        src="./Images/Icons/Bootstrap.svg"
-                        alt="Icon of Bootstrap Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="Bootstrap"
-                      />
-                      <img
-                        src="./Images/Icons/NodeJS-Dark.svg"
-                        alt="Icon of NodeJS Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="NodeJS"
-                      />
-                      <img
-                        src="./Images/Icons/ExpressJS-Dark.svg"
-                        alt="Icon of ExpressJS Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="ExpressJS"
-                      />
-                      <img
-                        src="./Images/Icons/MySQL-Dark.svg"
-                        alt="Icon of MySQL Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="MySQL"
-                      />
-                      <img
-                        src="./Images/Icons/Git.svg"
-                        alt="Icon of Git Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="Git"
-                      />
-                    </div>
-                    <h1 class="card-title">Social Media App</h1>
-                    <p class="card-text">
-                      A CRUD Application built with ReactJS & ExpressJS which
-                      allows people to create accounts and write text to post
-                      which other people can view. People can also edit or
-                      delete their posts.
-                    </p>
-
-                    <div class="text-start w-100 ps-3">
-                      <p>
-                        <span class="fw-bold">C - </span> User Signup & Creating
-                        Posts
-                      </p>
-                      <p>
-                        <span class="fw-bold">R - </span> Viewing User Posts
-                      </p>
-                      <p><span class="fw-bold">U - </span> Editing Posts</p>
-                      <p><span class="fw-bold">D - </span> Deleting Posts</p>
-                      <p>
-                        This was achieved by creating a REST API with NodeJS &
-                        ExpressJS using a MySQL Database.<br />Authorization/Authentication
-                        was achieved by verifying JSON Web Tokens
-                      </p>
-                    </div>
-                    <div class="mt-auto">
-                      <a
-                        href="https://github.com/Matthew-Bowman/Social-Media/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- APPLICATION PROJECTS -->
-        <div class="mb-5">
-          <h2 class="display-5 fw-bold col-12">Software Projects</h2>
-          <div class="col-10 text-center mx-auto mt-3">
-            <div class="row gy-4 justify-content-center">
-
-              <!-- DISCORD API -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <div class="card-body h-100 d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/NodeJS-Dark.svg"
-                        alt="Icon of NodeJS Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="NodeJS"
-                      />
-                    </div>
-                    <h1 class="card-title">Discord API</h1>
-                    <p class="card-text">
-                      An application to connect to the gateway provided by
-                      Discord.
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://github.com/Matthew-Bowman/Discord-Gateway/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- JavaFish Simulation -->
-              <div class="col-12 col-md-6 col-xl-4">
-                <div class="card h-100 shadow">
-                  <div class="card-body h-100 d-flex flex-column">
-                    <div>
-                      <img
-                        src="./Images/Icons/Java-Dark.svg"
-                        alt="Icon of Java Logo"
-                        class="border rounded-3 p-2 shadow-sm"
-                        width="48"
-                        height="48"
-                        data-bs-toggle="tooltip"
-                        data-bs-title="Java"
-                      />
-                    </div>
-                    <h1 class="card-title">JavaFish</h1>
-                    <p class="card-text">
-                      An application that consists of multiple types of fish swimming around an aquarium built on top of a simulation developed by a peer. Repository includes design documentation of how the applcication was built. Utilises SOLID, reinforcing Loose Coupling & High Cohesion
-                    </p>
-                    <div class="mt-auto">
-                      <a
-                        href="https://github.com/Matthew-Bowman/JavaFish/"
-                        class="btn btn-outline-dark"
-                        target="_blank"
-                        >Repository</a
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- APPLICATION PROJECTS -->
-              <div class="mb-5">
-                <h2 class="display-5 fw-bold col-12">Games</h2>
-                <div class="col-10 text-center mx-auto mt-3">
-                  <div class="row gy-4 justify-content-center">
-      
-                    <!-- The New Infirmary -->
-                    <div class="col-12 col-md-6 col-xl-4">
-                      <div class="card h-100 shadow">
-                        <img
-                          src="./Images/Projects/Level One.png"
-                          alt="Image of the Social Media App"
-                          class="card-img-top img-fluid border-bottom"
-                        />
-                        <div class="card-body h-100 d-flex flex-column">
-                          <div>
-                            <img
-                              src="./Images/Icons/Unity-Dark.svg"
-                              alt="Icon of Unity Logo"
-                              class="border rounded-3 p-2 shadow-sm"
-                              width="48"
-                              height="48"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="Unity"
-                            />
-                            <img
-                              src="./Images/Icons/CS.svg"
-                              alt="Icon of C# Logo"
-                              class="border rounded-3 p-2 shadow-sm"
-                              width="48"
-                              height="48"
-                              data-bs-toggle="tooltip"
-                              data-bs-title="C#"
-                            />
-                          </div>
-                          <h1 class="card-title">The New Infirmary</h1>
-                          <p class="card-text">
-                            A game based on rebuilding an infirmary building. Represents many skills such as event management, storyline inclusion, audio implementations, a combat system, inventory systems, animation, etc.
-                          </p>
-                          <div class="mt-auto">
-                            <a
-                              href="https://github.com/Matthew-Bowman/The-New-Infirmary/"
-                              class="btn btn-outline-dark"
-                              target="_blank"
-                              >Repository</a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-      
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
+<body class="bg-light pb-5">
+  <div class="container-fluid p-0">
+    <!-- HEADER -->
+    <div class="py-5 bg-dark text-light">
+      <div class="p-5 mb-4">
+        <div class="container-fluid text-center">
+          <h1 class="display-4 fw-bold">Matthew Bowman</h1>
+          <p class="fs-5">Structured Systems Analyst & Full Stack Developer</p>
+          <a href="https://github.com/Matthew-Bowman" class="btn btn-outline-primary px-4 fs-4"
+            target="_blank">GitHub</a>
         </div>
       </div>
     </div>
 
+    <!-- MAIN -->
+    <div class="mt-4 text-center">
+      <!-- SKILLS -->
+      <div class="mb-5">
+        <h2 class="display-5 fw-bold col-12">Skills</h2>
+        <div class="bg-white col-10 col-xl-6 d-flex flex-wrap gap-2 mx-auto p-4 justify-content-start shadow">
+
+          <!-- Frontend -->
+          <h3 class="fw-bold m-0 col-12 text-start">Frontend</h3>
+
+          <img src="./Images/Icons/HTML.svg" alt="Icon of HTML5 Logo" class="border rounded-3 p-2 shadow-sm" width="64"
+            height="64" data-bs-toggle="tooltip" data-bs-title="HTML 5" />
+          <img src="./Images/Icons/CSS.svg" alt="Icon of CSS3 Logo" class="border rounded-3 p-2 shadow-sm" width="64"
+            height="64" data-bs-toggle="tooltip" data-bs-title="CSS 3" />
+          <img src="./Images/Icons/JavaScript.svg" alt="Icon of JavaScript Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="JavaScript" />
+          <img src="./Images/Icons/React-Dark.svg" alt="Icon of ReactJS Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="ReactJS" />
+          <img src="./Images/Icons/Bootstrap.svg" alt="Icon of Bootstrap Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="Bootstrap" />
+          <img src="./Images/Icons/TailwindCSS-Dark.svg" alt="Icon of TailwindCSS Logo"
+            class="border rounded-3 p-2 shadow-sm" width="64" height="64" data-bs-toggle="tooltip"
+            data-bs-title="TailwindCSS" />
+
+          <!-- Backend -->
+          <div class="m-0 col-12"></div>
+          <h3 class="fw-bold m-0 col-12 text-start">Backend</h3>
+          <img src="./Images/Icons/NodeJS-Dark.svg" alt="Icon of NodeJS Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="NodeJS" />
+          <img src="./Images/Icons/ExpressJS-Dark.svg" alt="Icon of ExpressJS Logo"
+            class="border rounded-3 p-2 shadow-sm" width="64" height="64" data-bs-toggle="tooltip"
+            data-bs-title="ExpressJS" />
+          <img src="./Images/Icons/PHP-Dark.svg" alt="Icon of PHP Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="PHP" />
+          <img src="./Images/Icons/Java-Dark.svg" alt="Icon of Java Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="Java" />
+          <img src="./Images/Icons/CS.svg" alt="Icon of C# Logo" class="border rounded-3 p-2 shadow-sm" width="64"
+            height="64" data-bs-toggle="tooltip" data-bs-title="C#" />
+          <img src="./Images/Icons/CPP.svg" alt="Icon of C# Logo" class="border rounded-3 p-2 shadow-sm" width="64"
+            height="64" data-bs-toggle="tooltip" data-bs-title="C++" />
+          <img src="./Images/Icons/C.svg" alt="Icon of C# Logo" class="border rounded-3 p-2 shadow-sm" width="64"
+            height="64" data-bs-toggle="tooltip" data-bs-title="C" />
+          <img src="./Images/Icons/MySQL-Dark.svg" alt="Icon of MySQL Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="MySQL" />
+
+          <!-- DevOps -->
+          <div class="m-0 col-12"></div>
+          <h3 class="fw-bold m-0 col-12 text-start">DevOps</h3>
+
+          <img src="./Images/Icons/Git.svg" alt="Icon of Git Logo" class="border rounded-3 p-2 shadow-sm" width="64"
+            height="64" data-bs-toggle="tooltip" data-bs-title="Git" />
+          <img src="./Images/Icons/Github-Dark.svg" alt="Icon of GitHub Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="GitHub" />
+          <img src="./Images/Icons/Linux-Dark.svg" alt="Icon of Linux Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="Linux" />
+          <img src="./Images/Icons/Ubuntu.svg" alt="Icon of Ubuntu Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="Ubuntu" />
+          <img src="./Images/Icons/Digital-Ocean.svg" alt="Icon of Digital Ocean Logo"
+            class="border rounded-3 p-2 shadow-sm" width="64" height="64" data-bs-toggle="tooltip"
+            data-bs-title="Digital Ocean" />
+          <img src="./Images/Icons/Cloudflare-Dark.svg" alt="Icon of Cloudflare Logo"
+            class="border rounded-3 p-2 shadow-sm" width="64" height="64" data-bs-toggle="tooltip"
+            data-bs-title="Cloudflare" />
+
+          <!-- Miscellaneous -->
+          <div class="m-0 col-12"></div>
+          <h3 class="fw-bold m-0 col-12 text-start">Miscellaneous</h3>
+
+          <img src="./Images/Icons/Unity-Dark.svg" alt="Icon of Unity Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="Unity" />
+          <img src="./Images/Icons/Arduino.svg" alt="Icon of Unity Logo" class="border rounded-3 p-2 shadow-sm"
+            width="64" height="64" data-bs-toggle="tooltip" data-bs-title="Arduino" />
+        </div>
+      </div>
+
+      <!-- CURRENT PROJECTS -->
+      <div class="mb-5">
+        <h2 class="display-5 fw-bold col-12">Current Projects</h2>
+
+        <div class="col-10 text-center mx-auto mt-3">
+          <div class="row gy-4 justify-content-center">
+
+            <!-- ESP32-WifiManager -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <div class="card-body h-100 d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/HTML.svg" alt="Icon of HTML Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="HTML" />
+                    <img src="./Images/Icons/CPP.svg" alt="Icon of C++ Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="C++" />
+                    <img src="./Images/Icons/C.svg" alt="Icon of C Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="C" />
+                    <img src="./Images/Icons/Arduino.svg" alt="Icon of Arduino Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="Arduino" />
+                  </div>
+                  <h1 class="card-title">ESP32-WifiManager</h1>
+                  <p class="card-text">
+                    A fork of the WiFiManager library tailored for ESP32, offering a streamlined captive portal for easy
+                    and dynamic Wi-Fi network configuration.
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://github.com/Matthew-Bowman/ESP32-WifiManager/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SmartDeviceHub -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <div class="card-body h-100 d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/CS.svg" alt="Icon of C# Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="C#" />
+                  </div>
+                  <h1 class="card-title">SmartDeviceHub</h1>
+                  <p class="card-text">
+                    SmartDeviceHub is an open-source platform designed to simplify the management and integration of
+                    smart home devices. It provides a centralized hub for connecting, controlling, and automating
+                    various IoT devices, enabling seamless interoperability and enhanced user experience.
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://github.com/Matthew-Bowman/SmartDeviceHub" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- WEB PROJECTS -->
+      <div class="mb-5">
+
+        <h2 class="display-5 fw-bold col-12">Web Projects</h2>
+        <div class="col-10 text-center mx-auto mt-3">
+          <div class="row gy-4 justify-content-center">
+
+            <!-- SaaS Landing Page -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <img src="./Images/Projects/SaaS Landing Page.png" alt="Image of a calculator"
+                  class="card-img-top img-fluid border-bottom" />
+                <div class="card-body d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/HTML.svg" alt="Icon of HTML5 Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="HTML 5" />
+                    <img src="./Images/Icons/CSS.svg" alt="Icon of CSS3 Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="CSS 3" />
+                    <img src="./Images/Icons/JavaScript.svg" alt="Icon of JavaScript Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="JavaScript" />
+                  </div>
+                  <h1 class="card-title">SaaS Landing Page</h1>
+                  <p class="card-text">
+                    A sample landing page for a SaaS application
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://matthew-bowman.github.io/SaaS-Landing-Page/" class="btn btn-primary"
+                      target="_blank">Show Me</a>
+                    <a href="https://github.com/Matthew-Bowman/SaaS-Landing-Page/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- WEATHER APPLICATION CARD -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <img src="./Images/Projects/Weather Application.png" alt="Image of a calculator"
+                  class="card-img-top img-fluid border-bottom" />
+                <div class="card-body d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/HTML.svg" alt="Icon of HTML5 Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="HTML 5" />
+                    <img src="./Images/Icons/Bootstrap.svg" alt="Icon of Bootstrap Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="Bootstrap" />
+                  </div>
+                  <h1 class="card-title">Weather Application</h1>
+                  <p class="card-text">
+                    A weather application to inform people of the weather.
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://matthew-bowman.github.io/Weather-Application/" class="btn btn-primary"
+                      target="_blank">Show Me</a>
+                    <a href="https://github.com/Matthew-Bowman/Weather-Application/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- DISCORD INTERFACE CARD -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <img src="./Images/Projects/Discord Design.png" alt="Image of a calculator"
+                  class="card-img-top img-fluid border-bottom" />
+                <div class="card-body d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/HTML.svg" alt="Icon of HTML5 Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="HTML 5" />
+                    <img src="./Images/Icons/JavaScript.svg" alt="Icon of JavaScript Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="JavaScript" />
+                    <img src="./Images/Icons/React-Dark.svg" alt="Icon of ReactJS Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="ReactJS" />
+                    <img src="./Images/Icons/TailwindCSS-Dark.svg" alt="Icon of TailwindCSS Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="TailwindCSS" />
+                  </div>
+                  <h1 class="card-title">Discord Interface</h1>
+                  <p class="card-text">
+                    A ReactJS app with TailwindCSS to demonstrate skills.
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://matthew-bowman.github.io/TailwindCSS-Tutorial/" class="btn btn-primary"
+                      target="_blank">Show Me</a>
+                    <a href="https://github.com/Matthew-Bowman/TailwindCSS-Tutorial/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- AIDANN PORTFOLIO CARD -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <img src="./Images/Projects/Aidan Portfolio.png" alt="Image of a calculator"
+                  class="card-img-top img-fluid border-bottom" />
+                <div class="card-body d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/HTML.svg" alt="Icon of HTML5 Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="HTML 5" />
+                    <img src="./Images/Icons/CSS.svg" alt="Icon of CSS Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="CSS" />
+                    <img src="./Images/Icons/JavaScript.svg" alt="Icon of JavaScript Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="JavaScript" />
+                    <img src="./Images/Icons/PHP-Dark.svg" alt="Icon of PHP Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="PHP" />
+                    <img src="./Images/Icons/Ubuntu.svg" alt="Icon of Ubuntu Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="Ubuntu" />
+                    <img src="./Images/Icons/Digital-Ocean.svg" alt="Icon of Digital Ocean Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="Digital Ocean" />
+                    <img src="./Images/Icons/Cloudflare-Dark.svg" alt="Icon of Cloudflare Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="Cloudflare" />
+                  </div>
+                  <h1 class="card-title">Portfolio</h1>
+                  <p class="card-text">
+                    A portfolio website I built for a client including a
+                    custom content management system for them to customise the
+                    content on the pages of the website built on top of a LAMP stack.
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://github.com/Matthew-Bowman/Aidann-Portfolio/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SKETCH-IT CARD -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <img src="./Images/Projects/Sketch-It.png" alt="Image of a calculator"
+                  class="card-img-top img-fluid border-bottom" />
+                <div class="card-body h-100 d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/HTML.svg" alt="Icon of HTML5 Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="HTML 5" />
+                    <img src="./Images/Icons/CSS.svg" alt="Icon of CSS3 Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="CSS 3" />
+                    <img src="./Images/Icons/JavaScript.svg" alt="Icon of JavaScript Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="JavaScript" />
+                  </div>
+                  <h1 class="card-title">Sketch-It</h1>
+                  <p class="card-text">
+                    A website providing the user with the ability to draw.
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://matthew-bowman.github.io/Sketch-It/" class="btn btn-primary" target="_blank">Show
+                      Me</a>
+                    <a href="https://github.com/Matthew-Bowman/Sketch-It/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- SOCIAL MEDIA APP CARD -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card shadow h-100">
+                <img src="./Images/Projects/Social Media App.png" alt="Image of the Social Media App"
+                  class="card-img-top img-fluid border-bottom" />
+                <div class="card-body d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/HTML.svg" alt="Icon of HTML5 Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="HTML 5" />
+                    <img src="./Images/Icons/JavaScript.svg" alt="Icon of JavaScript Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="JavaScript" />
+                    <img src="./Images/Icons/React-Dark.svg" alt="Icon of ReactJS Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="ReactJS" />
+                    <img src="./Images/Icons/Bootstrap.svg" alt="Icon of Bootstrap Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="Bootstrap" />
+                    <img src="./Images/Icons/NodeJS-Dark.svg" alt="Icon of NodeJS Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="NodeJS" />
+                    <img src="./Images/Icons/ExpressJS-Dark.svg" alt="Icon of ExpressJS Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="ExpressJS" />
+                    <img src="./Images/Icons/MySQL-Dark.svg" alt="Icon of MySQL Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="MySQL" />
+                    <img src="./Images/Icons/Git.svg" alt="Icon of Git Logo" class="border rounded-3 p-2 shadow-sm"
+                      width="48" height="48" data-bs-toggle="tooltip" data-bs-title="Git" />
+                  </div>
+                  <h1 class="card-title">Social Media App</h1>
+                  <p class="card-text">
+                    A CRUD Application built with ReactJS & ExpressJS which
+                    allows people to create accounts and write text to post
+                    which other people can view. People can also edit or
+                    delete their posts.
+                  </p>
+
+                  <div class="text-start w-100 ps-3">
+                    <p>
+                      <span class="fw-bold">C - </span> User Signup & Creating
+                      Posts
+                    </p>
+                    <p>
+                      <span class="fw-bold">R - </span> Viewing User Posts
+                    </p>
+                    <p><span class="fw-bold">U - </span> Editing Posts</p>
+                    <p><span class="fw-bold">D - </span> Deleting Posts</p>
+                    <p>
+                      This was achieved by creating a REST API with NodeJS &
+                      ExpressJS using a MySQL Database.<br />Authorization/Authentication
+                      was achieved by verifying JSON Web Tokens
+                    </p>
+                  </div>
+                  <div class="mt-auto">
+                    <a href="https://github.com/Matthew-Bowman/Social-Media/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- APPLICATION PROJECTS -->
+      <div class="mb-5">
+        <h2 class="display-5 fw-bold col-12">Software Projects</h2>
+        <div class="col-10 text-center mx-auto mt-3">
+          <div class="row gy-4 justify-content-center">
+
+            <!-- DISCORD API -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <div class="card-body h-100 d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/NodeJS-Dark.svg" alt="Icon of NodeJS Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="NodeJS" />
+                  </div>
+                  <h1 class="card-title">Discord API</h1>
+                  <p class="card-text">
+                    An application to connect to the gateway provided by
+                    Discord.
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://github.com/Matthew-Bowman/Discord-Gateway/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- JavaFish Simulation -->
+            <div class="col-12 col-md-6 col-xl-4">
+              <div class="card h-100 shadow">
+                <div class="card-body h-100 d-flex flex-column">
+                  <div>
+                    <img src="./Images/Icons/Java-Dark.svg" alt="Icon of Java Logo"
+                      class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                      data-bs-title="Java" />
+                  </div>
+                  <h1 class="card-title">JavaFish</h1>
+                  <p class="card-text">
+                    An application that consists of multiple types of fish swimming around an aquarium built on top of a
+                    simulation developed by a peer. Repository includes design documentation of how the applcication was
+                    built. Utilises SOLID, reinforcing Loose Coupling & High Cohesion
+                  </p>
+                  <div class="mt-auto">
+                    <a href="https://github.com/Matthew-Bowman/JavaFish/" class="btn btn-outline-dark"
+                      target="_blank">Repository</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- APPLICATION PROJECTS -->
+            <div class="mb-5">
+              <h2 class="display-5 fw-bold col-12">Games</h2>
+              <div class="col-10 text-center mx-auto mt-3">
+                <div class="row gy-4 justify-content-center">
+
+                  <!-- The New Infirmary -->
+                  <div class="col-12 col-md-6 col-xl-4">
+                    <div class="card h-100 shadow">
+                      <img src="./Images/Projects/Level One.png" alt="Image of the Social Media App"
+                        class="card-img-top img-fluid border-bottom" />
+                      <div class="card-body h-100 d-flex flex-column">
+                        <div>
+                          <img src="./Images/Icons/Unity-Dark.svg" alt="Icon of Unity Logo"
+                            class="border rounded-3 p-2 shadow-sm" width="48" height="48" data-bs-toggle="tooltip"
+                            data-bs-title="Unity" />
+                          <img src="./Images/Icons/CS.svg" alt="Icon of C# Logo" class="border rounded-3 p-2 shadow-sm"
+                            width="48" height="48" data-bs-toggle="tooltip" data-bs-title="C#" />
+                        </div>
+                        <h1 class="card-title">The New Infirmary</h1>
+                        <p class="card-text">
+                          A game based on rebuilding an infirmary building. Represents many skills such as event
+                          management, storyline inclusion, audio implementations, a combat system, inventory systems,
+                          animation, etc.
+                        </p>
+                        <div class="mt-auto">
+                          <a href="https://github.com/Matthew-Bowman/The-New-Infirmary/" class="btn btn-outline-dark"
+                            target="_blank">Repository</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
-    <!-- ENABLE TOOLTIPS -->
-    <script>
-      const tooltipTriggerList = document.querySelectorAll(
-        '[data-bs-toggle="tooltip"]'
-      );
-      const tooltipList = [...tooltipTriggerList].map(
-        (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
-      );
-    </script>
-  </body>
+
+  <!-- ENABLE TOOLTIPS -->
+  <script>
+    const tooltipTriggerList = document.querySelectorAll(
+      '[data-bs-toggle="tooltip"]'
+    );
+    const tooltipList = [...tooltipTriggerList].map(
+      (tooltipTriggerEl) => new bootstrap.Tooltip(tooltipTriggerEl)
+    );
+  </script>
+</body>
+
 </html>
